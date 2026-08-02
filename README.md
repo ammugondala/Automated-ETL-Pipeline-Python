@@ -70,7 +70,7 @@ The project generates:
 - Logs
 - Email Notification
 - Azure Blob Upload (optional)
-
+Project uploaded to GitHub successfully.
 ## Author
 
 Amrutha varshini Gondala
