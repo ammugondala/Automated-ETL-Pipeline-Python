@@ -1,9 +1,8 @@
 import pandas as pd
 
-
-def extract(csv_path):
+def extract_data(csv_path):
     """
-    Reads a CSV file and returns a DataFrame.
+    Reads data from the CSV file.
     """
 
     try:
@@ -12,9 +11,9 @@ def extract(csv_path):
         return df
 
     except FileNotFoundError:
-        print("❌ CSV file not found.")
+        print("❌ CSV file not found!")
         return None
 
     except Exception as e:
-        print("❌ Error:", e)
+        print(f"❌ Error while reading CSV: {e}")
         return None

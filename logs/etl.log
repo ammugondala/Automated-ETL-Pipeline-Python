@@ -1,0 +1,77 @@
+2026-07-21 08:19:23,042 - INFO - ETL Pipeline Started
+2026-07-21 08:19:23,057 - INFO - CSV loaded successfully.
+2026-07-21 08:19:23,063 - INFO - Data transformed successfully.
+2026-07-21 08:19:23,082 - INFO - Data loaded successfully into SQLite database.
+2026-07-21 08:19:25,195 - INFO - Charts generated successfully.
+2026-07-21 08:19:25,202 - INFO - ETL Pipeline Completed
+2026-07-21 08:23:06,417 - INFO - ETL Pipeline Started
+2026-07-21 08:23:06,420 - INFO - CSV loaded successfully.
+2026-07-21 08:23:06,425 - INFO - Data transformed successfully.
+2026-07-21 08:23:06,504 - INFO - Data loaded successfully into SQLite database.
+2026-07-21 08:23:07,214 - INFO - Charts generated successfully.
+2026-07-21 08:23:07,266 - INFO - Excel report created successfully.
+2026-07-21 08:23:07,277 - INFO - ETL Pipeline Completed
+2026-07-21 18:57:08,921 - INFO - ETL Pipeline Started
+2026-07-21 18:57:08,935 - INFO - CSV loaded successfully.
+2026-07-21 18:57:08,956 - INFO - Data transformed successfully.
+2026-07-21 18:57:08,992 - INFO - Data loaded successfully into SQLite database.
+2026-07-21 18:57:09,887 - INFO - Charts generated successfully.
+2026-07-21 18:57:09,936 - INFO - Excel report created successfully.
+2026-07-21 18:57:14,340 - INFO - ETL Pipeline Completed
+2026-07-25 12:53:49,191 - INFO - ETL Pipeline Started
+2026-07-25 12:53:49,213 - INFO - CSV loaded successfully.
+2026-07-25 12:53:49,228 - INFO - Data transformed successfully.
+2026-07-25 12:53:49,274 - INFO - Data loaded successfully into SQLite database.
+2026-07-25 12:53:51,652 - INFO - Charts generated successfully.
+2026-07-25 12:53:51,692 - INFO - Excel report created successfully.
+2026-07-25 12:58:25,886 - INFO - ETL Pipeline Started
+2026-07-25 12:58:25,890 - INFO - CSV loaded successfully.
+2026-07-25 12:58:25,895 - INFO - Data transformed successfully.
+2026-07-25 12:58:25,911 - INFO - Data loaded successfully into SQLite database.
+2026-07-25 12:58:26,595 - INFO - Charts generated successfully.
+2026-07-25 12:58:26,607 - INFO - Excel report created successfully.
+2026-07-25 12:59:53,465 - INFO - ETL Pipeline Started
+2026-07-25 12:59:53,467 - INFO - CSV loaded successfully.
+2026-07-25 12:59:53,472 - INFO - Data transformed successfully.
+2026-07-25 12:59:53,490 - INFO - Data loaded successfully into SQLite database.
+2026-07-25 12:59:54,163 - INFO - Charts generated successfully.
+2026-07-25 12:59:54,175 - INFO - Excel report created successfully.
+2026-07-25 13:01:21,775 - INFO - ETL Pipeline Started
+2026-07-25 13:01:21,778 - INFO - CSV loaded successfully.
+2026-07-25 13:01:21,783 - INFO - Data transformed successfully.
+2026-07-25 13:01:21,804 - INFO - Data loaded successfully into SQLite database.
+2026-07-25 13:01:22,545 - INFO - Charts generated successfully.
+2026-07-25 13:01:22,559 - INFO - Excel report created successfully.
+2026-07-25 13:03:22,866 - INFO - ETL Pipeline Started
+2026-07-25 13:03:22,884 - INFO - CSV loaded successfully.
+2026-07-25 13:03:22,889 - INFO - Data transformed successfully.
+2026-07-25 13:03:22,907 - INFO - Data loaded successfully into SQLite database.
+2026-07-25 13:03:25,051 - INFO - Charts generated successfully.
+2026-07-25 13:03:25,089 - INFO - Excel report created successfully.
+2026-07-25 13:03:30,638 - INFO - ETL Pipeline Completed
+2026-07-27 15:56:23,382 - INFO - ETL Pipeline Started
+2026-07-27 15:56:23,411 - INFO - Data transformed successfully.
+2026-07-27 15:56:23,434 - INFO - Data loaded successfully into SQLite database.
+2026-07-27 15:56:25,037 - INFO - Charts generated successfully.
+2026-07-27 15:58:10,277 - INFO - ETL Pipeline Started
+2026-07-27 15:58:10,285 - INFO - Data transformed successfully.
+2026-07-27 15:58:10,308 - INFO - Data loaded successfully into SQLite database.
+2026-07-27 15:58:11,028 - INFO - Charts generated successfully.
+2026-07-27 16:01:03,098 - INFO - ETL Pipeline Started
+2026-07-27 16:01:03,107 - INFO - Data transformed successfully.
+2026-07-27 16:01:03,130 - INFO - Data loaded successfully into SQLite database.
+2026-07-27 16:01:04,188 - INFO - Charts generated successfully.
+2026-07-27 16:01:04,252 - INFO - Excel report created successfully.
+2026-07-27 16:01:08,541 - INFO - ETL Pipeline Completed
+2026-07-27 16:09:11,052 - INFO - ETL Pipeline Started
+2026-07-27 16:09:11,059 - INFO - Data transformed successfully.
+2026-07-27 16:09:11,120 - INFO - Data loaded successfully into SQLite database.
+2026-07-27 16:09:11,778 - INFO - Charts generated successfully.
+2026-07-27 16:09:11,819 - INFO - Excel report created successfully.
+2026-07-27 16:09:16,331 - INFO - ETL Pipeline Completed
+2026-07-27 16:15:07,500 - INFO - ETL Pipeline Started
+2026-07-27 16:15:07,508 - INFO - Data transformed successfully.
+2026-07-27 16:15:07,548 - INFO - Data loaded successfully into SQLite database.
+2026-07-27 16:15:08,274 - INFO - Charts generated successfully.
+2026-07-27 16:15:08,293 - INFO - Excel report created successfully.
+2026-07-27 16:15:12,586 - INFO - ETL Pipeline Completed
