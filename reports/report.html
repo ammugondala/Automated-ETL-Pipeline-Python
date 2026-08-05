@@ -1,0 +1,99 @@
+
+    <html>
+    <head>
+        <title>Employee ETL Report</title>
+
+        <style>
+
+        body {
+            font-family: Arial;
+            margin:40px;
+            background:#f4f4f4;
+        }
+
+        h1 {
+            color:darkblue;
+        }
+
+        table {
+            border-collapse:collapse;
+            width:50%;
+        }
+
+        th,td {
+            border:1px solid black;
+            padding:8px;
+        }
+
+        img {
+            width:500px;
+            margin-top:20px;
+        }
+
+        </style>
+
+    </head>
+
+    <body>
+
+    <h1>Employee ETL Report</h1>
+
+    <h2>Summary</h2>
+
+    <ul>
+
+        <li>Total Employees : 5</li>
+
+        <li>Average Salary : 51600.00</li>
+
+        <li>Highest Salary : 60000</li>
+
+        <li>Lowest Salary : 45000</li>
+
+    </ul>
+
+    <h2>Department Distribution</h2>
+
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Count</th>
+    </tr>
+    <tr>
+      <th>department</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>IT</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>HR</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Finance</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Marketing</th>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h2>Charts</h2>
+
+    <img src="salary_chart.png">
+
+    <img src="department_count.png">
+
+    <img src="department_pie.png">
+
+    </body>
+
+    </html>
+    
