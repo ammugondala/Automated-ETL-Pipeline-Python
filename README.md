@@ -1,51 +1,151 @@
-# ETL Pipeline Project
+# 🚀 Automated ETL Pipeline with Cloud Integration & Automated Reporting
 
-## Overview
+## 📌 Project Overview
 
-This project implements an ETL (Extract, Transform, Load) pipeline using Python. It extracts employee data from a CSV file or Azure SQL Database, transforms the data, loads it into a SQLite database, generates reports and visualizations, and can upload reports to Azure Blob Storage.
+This project is an end-to-end **Automated ETL (Extract, Transform, Load) Pipeline** developed using Python. It extracts employee data from a CSV file, cleans and transforms it using Pandas, stores the processed data in a SQLite database, optionally uploads the processed data to Azure Blob Storage, generates Excel, HTML, and graphical reports, and can send automated email notifications with the generated reports.
 
-## Features
+The project follows a modular architecture where each ETL stage is implemented in a separate Python module, making the code reusable, maintainable, and easy to extend. Environment variables are securely managed using a `.env` configuration file, ensuring sensitive credentials are not exposed.
 
-- Extract data from CSV
-- Optional Azure SQL Database support
-- Data cleaning and transformation
-- Load data into SQLite
-- Generate HTML report
-- Generate Excel report
-- Create charts using Matplotlib
+This project demonstrates practical data engineering concepts such as data extraction, transformation, loading, reporting, logging, cloud integration, and automation.
+
+---
+
+## ✨ Features
+
+- Extract data from CSV files
+- Read data from Azure SQL Database (Optional)
+- Clean and transform data using Pandas
+- Load data into SQLite database
+- Generate HTML reports
+- Generate Excel reports
+- Create data visualizations
 - Send reports through Email
 - Azure Blob Storage upload support
-- Logging
-- Environment variable configuration using `.env`
+- Logging for monitoring pipeline execution
 
-## Technologies Used
+---
 
-- Python
+## 🛠 Technologies Used
+
+- Python 3
 - Pandas
-- SQLite
+- SQLite3
 - Matplotlib
 - OpenPyXL
+- HTML
+- SMTP (Email Automation)
+- Azure Blob Storage
 - python-dotenv
-- Azure Storage Blob SDK
-- SQLAlchemy
-- PyODBC
+- Logging Module
+- Git
+- GitHub
 
-## Project Structure
+---
 
-```
+## 📂 Project Structure
+
+```text
 ETLProject/
 │
 ├── data/
+│   └── dummy_data.csv
+│
 ├── etl/
+│   ├── __init__.py
+│   ├── extractor.py
+│   ├── transformer.py
+│   ├── loader.py
+│   ├── viz.py
+│   ├── html_report.py
+│   ├── excel_report.py
+│   ├── emailer.py
+│   ├── azure_loader.py
+│   ├── azure_sql_reader.py
+│   ├── logger.py
+│   └── config.py
+│
 ├── reports/
+│   ├── Employee_Report.xlsx
+│   ├── annual_salary.png
+│   ├── department_count.png
+│   └── department_pie.png
+│
 ├── logs/
-├── .env
+│
 ├── requirements.txt
-├── README.md
-└── run_etl.py
+├── run_etl.py
+└── README.md
 ```
+## 🏗 Project Architecture
 
-## How to Run
+```
+CSV File
+     │
+     ▼
+Extractor
+     │
+     ▼
+Transformer
+     │
+     ▼
+Loader (SQLite)
+     │
+     ├────────► HTML Report
+     │
+     ├────────► Excel Report
+     │
+     ├────────► Visualizations
+     │
+     ├────────► Azure Blob Storage
+     │
+     └────────► Email Notification
+```
+---
+
+## ⚙️ Workflow
+
+1. Extract employee data from CSV or Azure SQL Database (Optional)
+2. Clean and transform the extracted data
+3. Load processed data into SQLite database
+4. Generate data visualizations
+5. Generate HTML report
+6. Generate Excel report
+7. Upload reports to Azure Blob Storage (Optional)
+8. Send automated email notifications
+9. Store execution logs
+
+---
+
+## 📊 Outputs
+
+- SQLite Database (etl.db)
+- Interactive HTML Report
+- Employee_Report.xlsx
+- Annual Salary Chart
+- Department Distribution Pie Chart
+- Department Count Chart
+- Execution Log File
+
+---
+
+## 🚀 Future Enhancements
+
+- Apache Airflow Integration
+- Power BI Dashboard
+- Streamlit Dashboard
+- Unit Testing using Pytest
+- Docker Support
+- Cloud Database Integration
+
+---
+
+## ▶️ How to Run
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ammugondala/Automated-ETL-Pipeline-Python.git
+```
 
 Install dependencies:
 
@@ -59,20 +159,14 @@ Run the project:
 python run_etl.py
 ```
 
-## Output
+---
+## 📄 License
 
-The project generates:
+This project is developed for educational and learning purposes. It demonstrates ETL concepts, data processing, reporting, cloud integration, and automation using Python.
+----
 
-- SQLite Database
-- HTML Report
-- Excel Report
-- Charts
-- Logs
-- Email Notification
-- Azure Blob Upload (optional)
+## 👩‍💻 Author
 
-- Project uploaded to GitHub successfully.
-## Author
+**Amruthavarshini**
 
-Amrutha varshini Gondala
-B.Tech CSE
+GitHub: https://github.com/ammugondala
