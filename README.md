@@ -78,7 +78,10 @@ ETLProject/
 ```
 ## 🏗 Project Architecture
 
-```
+![Project Architecture](reports/architecture.png)
+
+### Workflow
+```text
 CSV File
      │
      ▼
@@ -91,13 +94,9 @@ Transformer
 Loader (SQLite)
      │
      ├────────► HTML Report
-     │
      ├────────► Excel Report
-     │
      ├────────► Visualizations
-     │
      ├────────► Azure Blob Storage
-     │
      └────────► Email Notification
 ```
 ---
@@ -118,7 +117,7 @@ Loader (SQLite)
 
 ## 📊 Outputs
 
-- SQLite Database (etl.db)
+- SQLite Database (employee.db)
 - Interactive HTML Report
 - Employee_Report.xlsx
 - Annual Salary Chart
@@ -127,6 +126,19 @@ Loader (SQLite)
 - Execution Log File
 
 ---
+## 📸 Project Outputs
+
+### Annual Salary Chart
+
+![Annual Salary Chart](reports/annual_salary.png)
+
+### Department Count Chart
+
+![Department Count Chart](reports/department_count.png)
+
+### Department Distribution Pie Chart
+
+![Department Distribution Pie Chart](reports/department_pie.png)
 
 ## 🚀 Future Enhancements
 
