@@ -192,7 +192,7 @@ python run_etl.py
 ---
 ## 📄 License
 
-This project is intended for educational, learning, and portfolio purposes.It demonstrates ETL concepts, data processing, reporting, cloud integration, and automation using Python.
+This project is intended for educational, learning, and portfolio purposes. It demonstrates ETL concepts, data processing, reporting, cloud integration, and automation using Python.
 ----
 
 ## 👩‍💻 Author
