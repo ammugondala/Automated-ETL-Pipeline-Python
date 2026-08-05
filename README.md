@@ -1,16 +1,14 @@
 # 🚀 Automated ETL Pipeline with Cloud Integration & Automated Reporting
 
-![Architecture](reports/architecture.png)
+An end-to-end Python ETL Pipeline with Data Transformation, Reporting, Cloud Integration, and Email Automation.
 
 ## 📌 Project Overview
 
 This project is an end-to-end **Automated ETL (Extract, Transform, Load) Pipeline** developed using Python. It extracts employee data from a CSV file, cleans and transforms it using Pandas, stores the processed data in a SQLite database, optionally uploads the processed data to Azure Blob Storage, generates Excel, HTML, and graphical reports, and can send automated email notifications with the generated reports.
 
-The project follows a modular architecture where each ETL stage is implemented in a separate Python module, making the code reusable, maintainable, and easy to extend. Environment variables are securely managed using a `.env` configuration file, ensuring sensitive credentials are not exposed.
+The project follows a modular architecture where each ETL stage is implemented in a separate Python module, making the code reusable, maintainable, and easy to extend. Environment variables are securely managed using a .env configuration file, ensuring sensitive credentials are not exposed.
 
 This project demonstrates practical data engineering concepts such as data extraction, transformation, loading, reporting, logging, cloud integration, and automation.
-
----
 
 ## ✨ Features
 
@@ -167,6 +165,7 @@ The pipeline generates an Excel report containing the processed employee data.
 - Unit Testing using Pytest
 - Docker Support
 - Cloud Database Integration
+- CI/CD using GitHub Actions
 
 ---
 
@@ -193,7 +192,7 @@ python run_etl.py
 ---
 ## 📄 License
 
-This project is developed for educational and learning purposes. It demonstrates ETL concepts, data processing, reporting, cloud integration, and automation using Python.
+This project is intended for educational, learning, and portfolio purposes.It demonstrates ETL concepts, data processing, reporting, cloud integration, and automation using Python.
 ----
 
 ## 👩‍💻 Author
