@@ -195,3 +195,34 @@
 2026-08-06 19:18:20,879 - INFO - Excel report created successfully.
 2026-08-06 19:18:24,940 - INFO - Email sent successfully.
 2026-08-06 19:18:24,955 - INFO - ETL Pipeline Completed
+2026-08-06 19:52:45,810 - INFO - ETL Pipeline Started
+2026-08-06 19:52:45,821 - INFO - Data transformation started.
+2026-08-06 19:52:45,822 - INFO - Duplicates removed: 0
+2026-08-06 19:52:45,823 - INFO - Missing values removed: 0
+2026-08-06 19:52:45,823 - INFO - Column names converted to lowercase.
+2026-08-06 19:52:45,823 - INFO - Spaces replaced with underscores in column names.
+2026-08-06 19:52:45,824 - INFO - Salary column converted to numeric datatype.
+2026-08-06 19:52:45,826 - INFO - Joining date converted to datetime format.
+2026-08-06 19:52:45,826 - INFO - Annual salary column created.
+2026-08-06 19:52:45,827 - INFO - Data transformation completed successfully.
+2026-08-06 19:52:45,827 - INFO - Database loading started.
+2026-08-06 19:52:45,830 - INFO - SQLite database connection established.
+2026-08-06 19:52:45,853 - INFO - Data loaded successfully. Records inserted: 5
+2026-08-06 19:52:46,572 - INFO - Charts generated successfully.
+2026-08-06 19:53:52,570 - INFO - ETL Pipeline Started
+2026-08-06 19:53:52,577 - INFO - Data transformation started.
+2026-08-06 19:53:52,578 - INFO - Duplicates removed: 0
+2026-08-06 19:53:52,578 - INFO - Missing values removed: 0
+2026-08-06 19:53:52,579 - INFO - Column names converted to lowercase.
+2026-08-06 19:53:52,579 - INFO - Spaces replaced with underscores in column names.
+2026-08-06 19:53:52,579 - INFO - Salary column converted to numeric datatype.
+2026-08-06 19:53:52,590 - INFO - Joining date converted to datetime format.
+2026-08-06 19:53:52,591 - INFO - Annual salary column created.
+2026-08-06 19:53:52,612 - INFO - Data transformation completed successfully.
+2026-08-06 19:53:52,612 - INFO - Database loading started.
+2026-08-06 19:53:52,615 - INFO - SQLite database connection established.
+2026-08-06 19:53:52,670 - INFO - Data loaded successfully. Records inserted: 5
+2026-08-06 19:53:53,317 - INFO - Charts generated successfully.
+2026-08-06 19:53:53,334 - INFO - Excel report created successfully.
+2026-08-06 19:53:58,873 - INFO - Email sent successfully.
+2026-08-06 19:53:58,885 - INFO - ETL Pipeline Completed

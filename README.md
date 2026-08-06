@@ -172,6 +172,18 @@ The pipeline generates an Excel report containing the processed employee data.
 Report file:
 `reports/Employee_Report.xlsx`
 
+
+### ETL Execution
+
+The pipeline was executed successfully.
+
+![ETL Execution](reports/execution_1.png)
+
+![ETL Execution](reports/execution_2.png)
+
+![ETL Execution](reports/execution_3.png)
+
+
 ## 🚀 Future Enhancements
 
 - Apache Airflow Integration
