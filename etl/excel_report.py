@@ -1,14 +1,14 @@
 import os
 from openpyxl import Workbook
 from etl.logger import logger
+from etl.config import REPORT_FOLDER
 
 def create_excel_report(df):
     """
     Creates an Excel report from the transformed DataFrame.
     """
 
-    os.makedirs("reports", exist_ok=True)
-
+    os.makedirs(REPORT_FOLDER, exist_ok=True)
     wb = Workbook()
     ws = wb.active
     ws.title = "Employee Report"
@@ -20,7 +20,7 @@ def create_excel_report(df):
     for row in df.itertuples(index=False):
         ws.append(list(row))
 
-    excel_path = "reports/Employee_Report.xlsx"
+    excel_path = os.path.join(REPORT_FOLDER, "Employee_Report.xlsx")
     wb.save(excel_path)
 
     print("✅ Excel report created successfully!")

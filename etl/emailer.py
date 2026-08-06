@@ -3,7 +3,9 @@ import smtplib
 from email.message import EmailMessage
 from dotenv import load_dotenv
 
-# Load variables from .env
+from etl.config import REPORT_FOLDER
+from etl.logger import logger
+
 load_dotenv()
 
 EMAIL = os.getenv("EMAIL")
@@ -33,27 +35,34 @@ Regards,
 Amrutha Varshini
 """)
 
-    # Attach Excel Report
-    with open("reports/Employee_Report.xlsx", "rb") as f:
-        msg.add_attachment(
-            f.read(),
-            maintype="application",
-            subtype="octet-stream",
-            filename="Employee_Report.xlsx"
-        )
+    try:
+        excel_path = os.path.join(REPORT_FOLDER, "Employee_Report.xlsx")
 
-    # Attach Salary Chart
-    with open("reports/salary_chart.png", "rb") as f:
-        msg.add_attachment(
-            f.read(),
-            maintype="image",
-            subtype="png",
-            filename="salary_chart.png"
-        )
+        with open(excel_path, "rb") as f:
+            msg.add_attachment(
+                f.read(),
+                maintype="application",
+                subtype="octet-stream",
+                filename="Employee_Report.xlsx"
+            )
 
-    # Connect to Gmail
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
-        smtp.login(EMAIL, PASSWORD)
-        smtp.send_message(msg)
+        chart_path = os.path.join(REPORT_FOLDER, "salary_chart.png")
 
-    print("✅ Email sent successfully!")
+        with open(chart_path, "rb") as f:
+            msg.add_attachment(
+                f.read(),
+                maintype="image",
+                subtype="png",
+                filename="salary_chart.png"
+            )
+
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
+            smtp.login(EMAIL, PASSWORD)
+            smtp.send_message(msg)
+
+        print("✅ Email sent successfully!")
+        logger.info("Email sent successfully.")
+
+    except Exception as e:
+        print(f"❌ Failed to send email: {e}")
+        logger.error(f"Email sending failed: {e}")

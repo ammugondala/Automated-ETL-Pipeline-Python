@@ -11,7 +11,9 @@ __pycache__/
 # Database
 *.db
 
-
+# Log Files
+logs/
+*.log
 
 # VS Code Settings
 .vscode/

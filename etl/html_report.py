@@ -1,18 +1,23 @@
 import os
+from etl.config import REPORT_FOLDER
 
 def generate_html_report(df):
     """
     Generates an HTML report for employee data.
     """
 
-    os.makedirs("reports", exist_ok=True)
-
+    os.makedirs(REPORT_FOLDER, exist_ok=True)
     total = len(df)
     avg_salary = df["salary"].mean()
     max_salary = df["salary"].max()
     min_salary = df["salary"].min()
 
-    dept_table = df["department"].value_counts().to_frame(name="Count").to_html()
+    dept_table = (
+    df["department"]
+    .value_counts()
+    .to_frame(name="Count")
+    .to_html()
+)
     html = f"""
     <html>
     <head>
@@ -84,7 +89,9 @@ def generate_html_report(df):
     </html>
     """
 
-    with open("reports/report.html", "w", encoding="utf-8") as file:
+    html_path = os.path.join(REPORT_FOLDER, "report.html")
+
+    with open(html_path, "w", encoding="utf-8") as file:
         file.write(html)
 
     print("✅ HTML Report Generated Successfully!")

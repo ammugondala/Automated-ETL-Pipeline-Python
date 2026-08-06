@@ -93,3 +93,105 @@
 2026-08-05 22:23:10,839 - INFO - Charts generated successfully.
 2026-08-05 22:23:10,875 - INFO - Excel report created successfully.
 2026-08-05 22:23:15,491 - INFO - ETL Pipeline Completed
+2026-08-05 22:34:43,639 - INFO - ETL Pipeline Started
+2026-08-05 22:34:43,660 - INFO - Data transformed successfully.
+2026-08-05 22:34:43,695 - INFO - Data loaded successfully into SQLite database.
+2026-08-05 22:34:45,195 - INFO - Charts generated successfully.
+2026-08-05 22:34:45,226 - INFO - Excel report created successfully.
+2026-08-05 22:34:49,745 - INFO - ETL Pipeline Completed
+2026-08-05 22:36:25,417 - INFO - ETL Pipeline Started
+2026-08-05 22:36:25,426 - INFO - Data transformation started.
+2026-08-05 22:36:25,428 - INFO - Duplicates removed: 0
+2026-08-05 22:36:25,428 - INFO - Missing values removed: 0
+2026-08-05 22:36:25,429 - INFO - Column names converted to lowercase.
+2026-08-05 22:36:25,429 - INFO - Spaces replaced with underscores in column names.
+2026-08-05 22:36:25,429 - INFO - Salary column converted to numeric datatype.
+2026-08-05 22:36:25,431 - INFO - Joining date converted to datetime format.
+2026-08-05 22:36:25,432 - INFO - Annual salary column created.
+2026-08-05 22:36:25,432 - INFO - Data transformation completed successfully.
+2026-08-05 22:36:25,477 - INFO - Data loaded successfully into SQLite database.
+2026-08-05 22:36:26,084 - INFO - Charts generated successfully.
+2026-08-05 22:36:26,101 - INFO - Excel report created successfully.
+2026-08-05 22:36:31,574 - INFO - ETL Pipeline Completed
+2026-08-05 22:40:46,923 - INFO - ETL Pipeline Started
+2026-08-05 22:40:46,935 - INFO - Data transformation started.
+2026-08-05 22:40:46,937 - INFO - Duplicates removed: 0
+2026-08-05 22:40:46,938 - INFO - Missing values removed: 0
+2026-08-05 22:40:46,939 - INFO - Column names converted to lowercase.
+2026-08-05 22:40:46,940 - INFO - Spaces replaced with underscores in column names.
+2026-08-05 22:40:46,941 - INFO - Salary column converted to numeric datatype.
+2026-08-05 22:40:46,944 - INFO - Joining date converted to datetime format.
+2026-08-05 22:40:46,946 - INFO - Annual salary column created.
+2026-08-05 22:40:46,946 - INFO - Data transformation completed successfully.
+2026-08-05 22:40:46,947 - INFO - Database loading started.
+2026-08-05 22:40:46,950 - INFO - SQLite database connection established.
+2026-08-05 22:40:46,967 - INFO - Data loaded successfully. Records inserted: 5
+2026-08-05 22:40:49,045 - INFO - Charts generated successfully.
+2026-08-05 22:40:49,067 - INFO - Excel report created successfully.
+2026-08-05 22:40:54,281 - INFO - ETL Pipeline Completed
+2026-08-06 08:13:45,919 - INFO - ETL Pipeline Started
+2026-08-06 08:13:45,945 - INFO - Data transformation started.
+2026-08-06 08:13:45,946 - INFO - Duplicates removed: 0
+2026-08-06 08:13:45,947 - INFO - Missing values removed: 0
+2026-08-06 08:13:45,947 - INFO - Column names converted to lowercase.
+2026-08-06 08:13:45,947 - INFO - Spaces replaced with underscores in column names.
+2026-08-06 08:13:45,949 - INFO - Salary column converted to numeric datatype.
+2026-08-06 08:13:45,951 - INFO - Joining date converted to datetime format.
+2026-08-06 08:13:45,951 - INFO - Annual salary column created.
+2026-08-06 08:13:45,952 - INFO - Data transformation completed successfully.
+2026-08-06 08:13:45,952 - INFO - Database loading started.
+2026-08-06 08:13:45,956 - INFO - SQLite database connection established.
+2026-08-06 08:13:45,984 - INFO - Data loaded successfully. Records inserted: 5
+2026-08-06 08:13:46,915 - INFO - Charts generated successfully.
+2026-08-06 08:13:46,971 - INFO - Excel report created successfully.
+2026-08-06 08:13:51,452 - INFO - ETL Pipeline Completed
+2026-08-06 18:19:47,038 - INFO - ETL Pipeline Started
+2026-08-06 18:19:47,060 - INFO - Data transformation started.
+2026-08-06 18:19:47,062 - INFO - Duplicates removed: 0
+2026-08-06 18:19:47,063 - INFO - Missing values removed: 0
+2026-08-06 18:19:47,063 - INFO - Column names converted to lowercase.
+2026-08-06 18:19:47,064 - INFO - Spaces replaced with underscores in column names.
+2026-08-06 18:19:47,066 - INFO - Salary column converted to numeric datatype.
+2026-08-06 18:19:47,068 - INFO - Joining date converted to datetime format.
+2026-08-06 18:19:47,069 - INFO - Annual salary column created.
+2026-08-06 18:19:47,069 - INFO - Data transformation completed successfully.
+2026-08-06 18:19:47,070 - INFO - Database loading started.
+2026-08-06 18:19:47,073 - INFO - SQLite database connection established.
+2026-08-06 18:19:47,098 - INFO - Data loaded successfully. Records inserted: 5
+2026-08-06 18:19:47,892 - INFO - Charts generated successfully.
+2026-08-06 18:19:47,942 - INFO - Excel report created successfully.
+2026-08-06 18:19:52,055 - INFO - ETL Pipeline Completed
+2026-08-06 19:11:23,885 - INFO - ETL Pipeline Started
+2026-08-06 19:11:23,913 - INFO - Data transformation started.
+2026-08-06 19:11:23,915 - INFO - Duplicates removed: 0
+2026-08-06 19:11:23,916 - INFO - Missing values removed: 0
+2026-08-06 19:11:23,916 - INFO - Column names converted to lowercase.
+2026-08-06 19:11:23,916 - INFO - Spaces replaced with underscores in column names.
+2026-08-06 19:11:23,917 - INFO - Salary column converted to numeric datatype.
+2026-08-06 19:11:23,920 - INFO - Joining date converted to datetime format.
+2026-08-06 19:11:23,921 - INFO - Annual salary column created.
+2026-08-06 19:11:23,922 - INFO - Data transformation completed successfully.
+2026-08-06 19:11:23,922 - INFO - Database loading started.
+2026-08-06 19:11:23,925 - INFO - SQLite database connection established.
+2026-08-06 19:11:23,941 - INFO - Data loaded successfully. Records inserted: 5
+2026-08-06 19:11:25,943 - INFO - Charts generated successfully.
+2026-08-06 19:11:25,981 - INFO - Excel report created successfully.
+2026-08-06 19:11:30,323 - INFO - Email sent successfully.
+2026-08-06 19:11:30,336 - INFO - ETL Pipeline Completed
+2026-08-06 19:18:20,117 - INFO - ETL Pipeline Started
+2026-08-06 19:18:20,124 - INFO - Data transformation started.
+2026-08-06 19:18:20,125 - INFO - Duplicates removed: 0
+2026-08-06 19:18:20,126 - INFO - Missing values removed: 0
+2026-08-06 19:18:20,126 - INFO - Column names converted to lowercase.
+2026-08-06 19:18:20,126 - INFO - Spaces replaced with underscores in column names.
+2026-08-06 19:18:20,127 - INFO - Salary column converted to numeric datatype.
+2026-08-06 19:18:20,129 - INFO - Joining date converted to datetime format.
+2026-08-06 19:18:20,130 - INFO - Annual salary column created.
+2026-08-06 19:18:20,130 - INFO - Data transformation completed successfully.
+2026-08-06 19:18:20,130 - INFO - Database loading started.
+2026-08-06 19:18:20,132 - INFO - SQLite database connection established.
+2026-08-06 19:18:20,174 - INFO - Data loaded successfully. Records inserted: 5
+2026-08-06 19:18:20,861 - INFO - Charts generated successfully.
+2026-08-06 19:18:20,879 - INFO - Excel report created successfully.
+2026-08-06 19:18:24,940 - INFO - Email sent successfully.
+2026-08-06 19:18:24,955 - INFO - ETL Pipeline Completed

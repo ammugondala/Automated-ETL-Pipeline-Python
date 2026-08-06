@@ -1,4 +1,5 @@
 from etl.logger import logger
+from etl.config import REPORT_FOLDER
 import os
 import matplotlib.pyplot as plt
 
@@ -11,8 +12,7 @@ def create_visualizations(df):
     print("\nCreating Visualizations...")
 
     # Create reports folder if it doesn't exist
-    os.makedirs("reports", exist_ok=True)
-
+    os.makedirs(REPORT_FOLDER, exist_ok=True)
     # -----------------------------
     # 1. Department-wise Employee Count
     # -----------------------------
@@ -24,7 +24,7 @@ def create_visualizations(df):
     plt.xlabel("Department")
     plt.ylabel("Employees")
     plt.tight_layout()
-    plt.savefig("reports/department_count.png")
+    plt.savefig(os.path.join(REPORT_FOLDER, "department_count.png"))
     plt.close()
 
     # -----------------------------
@@ -36,7 +36,7 @@ def create_visualizations(df):
     plt.xlabel("Employee")
     plt.ylabel("Salary")
     plt.tight_layout()
-    plt.savefig("reports/salary_chart.png")
+    plt.savefig(os.path.join(REPORT_FOLDER, "salary_chart.png"))
     plt.close()
 
     # -----------------------------
@@ -49,7 +49,7 @@ def create_visualizations(df):
         autopct="%1.1f%%"
     )
     plt.title("Department Distribution")
-    plt.savefig("reports/department_pie.png")
+    plt.savefig(os.path.join(REPORT_FOLDER, "department_pie.png"))
     plt.close()
 
     # -----------------------------
@@ -61,8 +61,8 @@ def create_visualizations(df):
     plt.xlabel("Employee")
     plt.ylabel("Annual Salary")
     plt.tight_layout()
-    plt.savefig("reports/annual_salary.png")
+    plt.savefig(os.path.join(REPORT_FOLDER, "annual_salary.png"))
     plt.close()
 
-    print("✅ Charts saved inside 'reports' folder.")
+    print(f"✅ Visualizations saved successfully in '{REPORT_FOLDER}' folder.")
     logger.info("Charts generated successfully.")
