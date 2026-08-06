@@ -10,6 +10,8 @@ The project follows a modular architecture where each ETL stage is implemented i
 
 This project demonstrates practical data engineering concepts such as data extraction, transformation, loading, reporting, logging, cloud integration, and automation.
 
+This project follows the complete ETL lifecycle including data extraction, transformation, loading, reporting, visualization, cloud integration, logging, and email automation.
+
 ## ✨ Features
 
 - Extract data from CSV files
@@ -80,6 +82,8 @@ ETLProject/
 └── README.md
 ```
 ## 🏗 Project Architecture
+
+The following diagram illustrates the complete ETL pipeline architecture.
 
 ![Project Architecture](reports/architecture.png)
 
@@ -199,4 +203,4 @@ This project is intended for educational, learning, and portfolio purposes. It d
 
 **Amruthavarshini**
 
-GitHub: https://github.com/ammugondala
+GitHub: [ammugondala](https://github.com/ammugondala)
